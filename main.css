@@ -1,0 +1,13 @@
+body {
+    background-color: goldenrod;
+}
+#el1 {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+#el2 {
+    background-color: paleturquoise;
+    width: 100px;
+    height: 100px;
+}
