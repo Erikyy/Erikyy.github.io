@@ -8,12 +8,30 @@ export const TEXTS = {
     linkedIn: 'https://www.linkedin.com/in/erik-ülavere-935949220',
     githubLink: 'https://github.com/Erikyy',
     aboutMe:
-      "I'm a Fullstack software developer and student. My main skill set at my work is Java, Spring Boot and Kubernetes. Currently working at Registrite ja Infosüsteemide Keskus.",
-    skills: [],
-    hobbies: [],
+      "I'm a Fullstack software developer and a student. My main skill set at my work is Java, Spring Boot and Kubernetes. Currently working at Registrite ja Infosüsteemide Keskus.",
+    skills: [
+      'Java',
+      'GraalVM',
+      'Spring Boot',
+      'Spring Batch',
+      'Kubernetes',
+      'Angular',
+      'React',
+      'Typescript',
+      'PostgreSQL',
+      'Scrum',
+      'Microservices',
+      'Jira',
+      'Confluence',
+    ],
+    additionalSkills: [
+      'C++ and Rust - For my personal projects I prefer to use C++ and Rust.',
+      'OpenGL and Vulkan - I usually use these for my 3d rendering projects and game development.',
+    ],
   },
   general: {
-    skills: 'My skills',
+    skills: 'My main skills',
+    additionalSkills: 'My additional skills and hobbies',
     workExperience: 'My work experience',
     projects: 'Projects that I have worked on during my career',
   },
@@ -102,14 +120,14 @@ export const PROJECTS: Project[] = [
   {
     name: 'Riigi Teataja',
     description:
-      'I only developed and maintained only small parts of this whole web service. For example swapped out Google analytics with an internal one.',
+      'My only tasks were to develop, maintain and fix bugs only small parts of this whole web service. For example swapped out Google analytics with an internal one.',
     image: 'https://www.riigiteataja.ee/gfx/logo.png',
     link: 'https://riigiteataja.ee',
   },
   {
     name: 'Moya RVM systems',
     description:
-      'This project was also part of my internship programme. I was mainly tasked developing some new UI features and improving some User experience. One of my best features was an Excel spreadsheet generator that generated from the data. This feature saved our clients hours of work, spreadsheet with data was generated within minutes.',
+      'This project was also part of my internship programme. I was mainly tasked developing some new UI features and improving some User experience. One of my best features that I developed for it was an excel spreadsheet generator. This feature saved our clients hours of work, spreadsheet with data was generated within minutes. One of my biggest challenge of this project was switching Java build systems.',
     image:
       'https://www.rmel.ee/wp-content/uploads/2018/06/Moya_logo_blue-copy1.png',
     link: 'https://www.rmel.ee/staff/moya-ou/',

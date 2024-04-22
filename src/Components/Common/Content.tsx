@@ -98,6 +98,38 @@ export default function Content() {
           </div>
         </div>
       </div>
+      <div className="flex flex-col px-8 md:flex-row justify-center  w-full md:px-16 md:space-x-14 space-y-12 md:space-y-0 pt-14">
+        <div className="space-y-8">
+          <h2 className="text-3xl font-extrabold">{TEXTS.general.skills}</h2>
+          <div className="px-12">
+            <ul className="list-disc">
+              {TEXTS.profile.skills.map(skill => {
+                return (
+                  <li key={skill} className="font-medium text-xl">
+                    {skill}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        </div>
+        <div className="space-y-8">
+          <h2 className="text-3xl font-extrabold">
+            {TEXTS.general.additionalSkills}
+          </h2>
+          <div className="px-12">
+            <ul className="list-disc">
+              {TEXTS.profile.additionalSkills.map(skill => {
+                return (
+                  <li key={skill} className="font-medium text-xl md:max-w-48">
+                    {skill}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
